@@ -6,3 +6,6 @@ function getPortfolio(){
             document.querySelector("#list").innerHTML += `<li><a href=" ${res.data[i].website}" target="blank">${res.data[i].first_name} ${res.data[i].last_name}</a></li>`
         }
     })
+}
+
+getPortfolio()
