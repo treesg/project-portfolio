@@ -1,5 +1,9 @@
 axios
-.get(`https://api.kanye.rest`)
+.get(`https://icanhazdadjoke.com/`, {
+    headers: {
+        'Accept': 'text/plain'
+    }
+})
 .then((res)=> {
-    document.querySelector('#quote').innerHTML = `"${res.data.quote}" -Random Quote from Kanye West`
+    document.querySelector('#quote').innerHTML = `"${res.data}" -Random Dad Joke`
 })

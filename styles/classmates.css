@@ -15,6 +15,7 @@ header {
   width: 100%;
   height: 62px;
   background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(3px);
 }
 
 nav ul {
@@ -44,7 +45,7 @@ nav ul li:hover,
 header div a:hover {
   padding: 20px 20px;
   margin: 0;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .bg {
@@ -93,7 +94,7 @@ article {
 }
 
 .credit a:hover {
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 footer {
