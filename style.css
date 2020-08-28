@@ -144,6 +144,31 @@ article {
   display: block;
 }
 
+#linkAndContact {
+  display: flex;
+  margin: auto;
+  width: 85%;
+  text-align: center;
+}
+
+#links {
+  width: 50%;
+}
+
+#linksContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+#links a i {
+  font-size: 100px;
+  color: black;
+}
+
+#contact form {
+  display: flex;
+}
+
 footer {
   text-align: center;
 }
